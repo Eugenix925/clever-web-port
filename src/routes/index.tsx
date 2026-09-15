@@ -267,9 +267,12 @@ function Portfolio() {
         <Section id="education" eyebrow="Education & experience" title="Where I have learned">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="panel p-6">
-              <h3 className="text-lg font-semibold">Matric (Grade 12)</h3>
-              <p className="mt-1 text-sm text-primary">Lamula Jubilee Secondary School, Soweto</p>
-              <p className="mt-3 text-sm text-muted-foreground">Completed 2024.</p>
+              <h3 className="text-lg font-semibold">BSc in Mathematics and Computer Science</h3>
+              <p className="mt-1 text-sm text-primary">University of South Africa (UNISA)</p>
+              <p className="mt-3 text-sm text-muted-foreground">
+                Currently in second year. Combining theoretical computer science and mathematics
+                with practical IT and networking skills.
+              </p>
             </div>
             <div className="panel p-6">
               <h3 className="text-lg font-semibold">ICT & Networking Training</h3>
@@ -280,6 +283,11 @@ function Portfolio() {
                 Practical training in networking, computer hardware, operating systems support and
                 network troubleshooting, with hands-on labs in Cisco Packet Tracer.
               </p>
+            </div>
+            <div className="panel p-6">
+              <h3 className="text-lg font-semibold">Matric (Grade 12)</h3>
+              <p className="mt-1 text-sm text-primary">Lamula Jubilee Secondary School, Soweto</p>
+              <p className="mt-3 text-sm text-muted-foreground">Completed 2024.</p>
             </div>
           </div>
         </Section>
