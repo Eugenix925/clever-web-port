@@ -82,6 +82,7 @@ const CERTIFICATIONS = [
   "Getting Started with Cisco Packet Tracer — Cisco via Sci-Bono, 2026",
   "Computer Hardware Basics — Cisco Networking Academy via Sci-Bono, 2026",
   "Network and Support — Cisco Networking Academy via Sci-Bono, 2026",
+  "Build a free website with WordPress — Coursera Project Network, 2026",
 ];
 
 function Section({
