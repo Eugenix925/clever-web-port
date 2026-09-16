@@ -357,18 +357,28 @@ function Portfolio() {
             </div>
             <div className="panel flex flex-col justify-between p-6 md:p-8">
               <div>
-                <h3 className="text-lg font-semibold">Download my CV</h3>
+                <h3 className="text-lg font-semibold">Download my documents</h3>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  A full PDF copy of my skills, education, certifications and references.
+                  A full PDF copy of my skills, education, certifications and references, plus the
+                  PowerPoint presentation about this portfolio project.
                 </p>
               </div>
-              <a
-                href={cvAsset.url}
-                download="Akonaho_Ralinala_CV.pdf"
-                className="mt-6 inline-flex items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
-              >
-                Download CV (PDF)
-              </a>
+              <div className="mt-6 flex flex-col gap-3">
+                <a
+                  href={cvAsset.url}
+                  download="Akonaho_Ralinala_CV.pdf"
+                  className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
+                >
+                  Download CV (PDF)
+                </a>
+                <a
+                  href={deckAsset.url}
+                  download="Akonaho-Ralinala-Portfolio-Presentation.pptx"
+                  className="inline-flex items-center justify-center rounded-full border border-primary/40 px-5 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                >
+                  Download presentation (PPTX)
+                </a>
+              </div>
             </div>
           </div>
         </Section>
